@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-13T17:29:33.228589+00:00",
+  "purpose": "prediction export for fixed statistical analysis",
+  "no_model_selection_or_tuning": true,
+  "dataset_sha256": "421fd5a0f0b8a1f6221a7cee95a41970643bf547038d85db770ca9b979edffff",
+  "runner_sha256": "dfe9f6b30a2c6135509ae8659f3ba9856a38657c540a525db0c789df50c3ad9a",
+  "canonical_results_sha256": "69a7af24bf50f4c09182fca225cd274ac9d7e498f5ded6e6541900d421a20895",
+  "exporter_sha256": "145f9b66d8a56930101356bd93ee2470dac3ea51798fee8ee306fe99d8a1ea0b",
+  "seed": 42,
+  "train_monologues": 44029,
+  "test_monologues": 9441,
+  "test_users": 300,
+  "models": [
+    "dummy_most_frequent",
+    "risk_only_logistic_regression",
+    "risk_ogdq_logistic_regression",
+    "tfidf_logistic_regression",
+    "tfidf_linear_svm"
+  ],
+  "canonical_comparison": {
+    "exact_match": true,
+    "difference_count": 0,
+    "structural_difference_count": 0,
+    "maximum_numeric_absolute_delta": 0.0,
+    "maximum_headline_absolute_delta": 0.0,
+    "differences": []
+  },
+  "environment": {
+    "python": "3.10.7",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit_learn": "1.7.2"
+  },
+  "files_sha256": {
+    "dummy_most_frequent_test_predictions.csv": "9381d414c66a23f10de0b34f9e23fcb4105a17063d7ee07ed3ad18771f4262f9",
+    "risk_only_logistic_regression_test_predictions.csv": "1a3c8fa600037468efa261b906de9ce48efec172151eee8bcf71363b2d1a70e2",
+    "risk_ogdq_logistic_regression_test_predictions.csv": "e0966efcabb5c4534179fe9aeb40710b6d74b30af156c44f6ffbf39d7dd176a7",
+    "tfidf_logistic_regression_test_predictions.csv": "11cf272542b78411c5649ddb81ba380ff131aa07882bcfa17e83d88d97cc1e2b",
+    "tfidf_linear_svm_test_predictions.csv": "a10863450d2c1c3594aaca17e0a07330e2c8bd23e6b16c8ec42538a7f7a5c93c",
+    "reproduced_baseline_metrics.json": "d8595a1f4c0e6276c4de042eeecd7cff285241bb1d14b6d8e1ab9619a673fe21"
+  }
+}
