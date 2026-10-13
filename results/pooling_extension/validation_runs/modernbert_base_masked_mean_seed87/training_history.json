@@ -1,0 +1,37 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.1066348687754832,
+    "validation_loss": 1.0646535456907844,
+    "selection_score": 0.32265991225796375,
+    "improved": true
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.0473518020999124,
+    "validation_loss": 1.0417163784118166,
+    "selection_score": 0.5640812953774131,
+    "improved": true
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.9996108176795999,
+    "validation_loss": 1.0405866670482038,
+    "selection_score": 0.5739639515180872,
+    "improved": true
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.9401598740664793,
+    "validation_loss": 1.0594120967293292,
+    "selection_score": 0.5680985021803292,
+    "improved": false
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.8769851975392894,
+    "validation_loss": 1.0908208809417501,
+    "selection_score": 0.6096254508498331,
+    "improved": true
+  }
+]

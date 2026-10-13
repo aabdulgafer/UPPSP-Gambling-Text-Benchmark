@@ -1,0 +1,16 @@
+{
+  "run": "modernbert_base_masked_mean_seed87",
+  "seed": 87,
+  "model_name": "answerdotai/ModernBERT-base",
+  "pooling_strategy": "attention_masked_mean_all_tokens",
+  "dataset_sha256": "421fd5a0f0b8a1f6221a7cee95a41970643bf547038d85db770ca9b979edffff",
+  "checkpoint_sha256": "4272d75137e20245b4b837feb6c23ce5c3f620bb7df59f380568c743a6812355",
+  "source_config_sha256": "67c3dcc08cb20c49e186dc275d241cfcd4688f552792514264eef4f18bbfa405",
+  "source_runner_sha256": "a4ef3ebfdc41f122bbfd1e84ead584f5ff0e9bcd0444a93dc1405d1fd0782d0d",
+  "evaluation_script_sha256": "b0f59fdd9bd687872f61bbc7d094473b718b53d2825d4a5dbda008075cdf26f6",
+  "split": "test",
+  "test_records": 9441,
+  "test_users": 300,
+  "test_loss": 1.0941782302364507,
+  "training_performed": false
+}

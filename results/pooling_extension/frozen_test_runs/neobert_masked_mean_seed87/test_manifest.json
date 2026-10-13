@@ -1,0 +1,16 @@
+{
+  "run": "neobert_masked_mean_seed87",
+  "seed": 87,
+  "model_name": "chandar-lab/NeoBERT",
+  "pooling_strategy": "attention_masked_mean_all_tokens",
+  "dataset_sha256": "421fd5a0f0b8a1f6221a7cee95a41970643bf547038d85db770ca9b979edffff",
+  "checkpoint_sha256": "41ec01c78f57493fb15a19e2e963517b2bb7f5eb7b34ca28d953f6f500aaec2a",
+  "source_config_sha256": "2e31c114d387c76bc75c68a030890135bfcad926749b5ee7f0c9d0b387406ba6",
+  "source_runner_sha256": "a4ef3ebfdc41f122bbfd1e84ead584f5ff0e9bcd0444a93dc1405d1fd0782d0d",
+  "evaluation_script_sha256": "b0f59fdd9bd687872f61bbc7d094473b718b53d2825d4a5dbda008075cdf26f6",
+  "split": "test",
+  "test_records": 9441,
+  "test_users": 300,
+  "test_loss": 1.1087347970096226,
+  "training_performed": false
+}
