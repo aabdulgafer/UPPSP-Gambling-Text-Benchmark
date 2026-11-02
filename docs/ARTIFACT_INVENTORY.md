@@ -59,7 +59,7 @@ The original benchmark evaluated seven pretrained encoder architectures using se
 
 Saved frozen-test predictions, metrics, and test configuration records are released.
 
-Complete original training and validation records and checkpoint weights are not publicly available.
+Training configurations and histories for all 27 original-pooling runs are publicly available in the consolidated training audit archive. Complete validation metrics and predictions are not included for every original-pooling run, and trained checkpoint weights remain unavailable in the public release.
 
 ### Contemporary-encoder extension
 
@@ -89,7 +89,7 @@ The public repository contains saved predictions for the evaluated transformer s
 
 Large trained transformer checkpoint weights are not publicly released.
 
-Complete original-pooling training and validation histories are also not included in the current release.
+Training configurations and histories for all 27 original-pooling runs are included in the current release; complete validation metrics and predictions are not available for every run.
 
 ## Reproducibility Limitations
 
@@ -121,12 +121,12 @@ The manuscript Data Availability Statement should be consistent with the invento
 
 ### Original-Pooling Training Records
 
-**Repository location:** `results/training_runs/`
+**Repository location:** `results/training_runs/transformer_training_audit.zip`
 
-The repository contains training configurations (`run_config.json`) and training histories (`training_history.json`) for 26 original-pooling classification runs with explicitly recorded balanced class weighting.
+The consolidated archive contains training configurations (`run_config.json`) and training histories (`training_history.json`) for all 27 original-pooling encoder–seed combinations.
 
-These records cover the available verified encoder–seed combinations from the original benchmark. The historical BERT-base-uncased seed-42 run is tracked separately because its configuration does not explicitly record the class-weighting setting.
+The BERT-base-uncased seed-42 configuration and training history are included. Its historical configuration does not explicitly record the class-weighting setting; therefore, this setting should not be inferred solely from the archive's folder name.
 
-The published training records support inspection of training hyperparameters, epoch-level progression, and validation-based checkpoint selection. They do not constitute a complete release of model checkpoints or all intermediate evaluation artifacts.
+Complete validation metrics and validation predictions are not included for every original-pooling run. Trained checkpoint weights are retained separately and are not publicly distributed.
 
-The BERT seed-42 provenance remains subject to reconciliation with the frozen final-test manifest. No alternative weighting configuration should be attributed to this run without supporting evidence.
+These records support examination of training settings and epoch-level progression but do not establish exact end-to-end reproducibility.
