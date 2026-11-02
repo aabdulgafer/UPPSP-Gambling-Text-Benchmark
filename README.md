@@ -118,4 +118,4 @@ Please cite the associated research article when using this dataset, code, or be
 
 ## Licensing
 
-Licensing information will be finalized following confirmation of the applicable code and dataset redistribution terms.
+Licensing information will be finalized following confirmation of the applicable code and dataset redistribution terms. 
