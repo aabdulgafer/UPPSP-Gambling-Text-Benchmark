@@ -45,7 +45,7 @@ Relevant directories include:
 - `src/evaluation/`
 - `src/analysis/`
 
-The original production scripts used for synthetic corpus generation are not included in this release snapshot.
+Five production-related corpus-generation scripts are available in src/generation/. Complete corpus regeneration may still require additional original input files, model dependencies, and execution-environment details.
 
 The available scripts should not be interpreted as a complete end-to-end reproduction package for all experimental stages.
 
@@ -68,7 +68,7 @@ The repository also contains:
 
 These two files are examples from one run and do not constitute complete training histories for all 27 original-pooling checkpoints.
 
-The complete set of original training configurations, training histories, and validation-selection records is not provided as a standalone public release.
+Training configurations and histories for all 27 original-pooling runs are publicly available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not included for every run. The original trained checkpoint weights are retained separately.
 
 ## 4. Test Predictions and Evaluation Results
 
@@ -123,7 +123,7 @@ Reproducing model inference from the original trained weights is not possible us
 
 **Status: Not fully released**
 
-The repository contains the frozen generated dataset but does not currently include the complete original production scripts used to generate the synthetic corpus.
+Five production-related corpus-generation scripts are available in src/generation/. Complete corpus regeneration may still require additional original input files, model dependencies, and execution-environment details.
 
 Generation methodology, language models, decoding settings, and prompt-conditioning details are described in the manuscript and accompanying Supplementary Material.
 
