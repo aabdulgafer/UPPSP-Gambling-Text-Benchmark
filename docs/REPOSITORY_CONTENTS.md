@@ -9,7 +9,7 @@ The repository contains the frozen synthetic dataset, user-disjoint split manife
 
 Some experiment artifacts are distributed as ZIP archives rather than expanded directories.
 
-The public release does not contain all original training records or trained transformer checkpoint weights.
+The repository includes training configurations and histories for all 27 original-pooling runs, but does not contain complete validation records or trained checkpoint weights for every run.
 
 ## 1. Dataset
 
