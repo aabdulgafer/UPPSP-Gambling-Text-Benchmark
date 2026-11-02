@@ -279,7 +279,7 @@ Partially supported.
 
 Selected training scripts and configuration records are available.
 
-However, complete training and validation records for all original-pooling runs are not publicly released.
+Training configurations and histories for all 27 original-pooling runs are publicly available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not available for every run, and exact retraining may require additional software-environment and dependency information.
 
 Exact reproduction may also depend on model revisions, tokenizer versions, software versions, hardware behavior, and other environment details.
 
@@ -292,9 +292,7 @@ The original trained transformer checkpoint weights are not publicly released.
 ### Level E: Corpus regeneration
 
 
-The frozen generated dataset is available,  the complete original production generation scripts are  included in the current release snapshot.
-
-Generation details and prompt-conditioning procedures are described in the manuscript and Supplementary Material.
+The frozen synthetic dataset and five production-related generation scripts are publicly available. However, complete regeneration of the original corpus has not been independently demonstrated and may require additional original inputs, dependencies, model versions, and environment details.
 
 ## 13. Integrity and Traceability
 
@@ -334,7 +332,7 @@ For methodological details and the interpretation of results, consult the associ
 
 ### Original-Pooling Training Records
 
-The original-pooling training configurations and epoch-level histories are provided under `results/training_runs/`. The current release includes records for 27 encoder–seed combinations with explicitly documented balanced class weighting.
+The consolidated archive at `results/training_runs/transformer_training_audit.zip` contains training configurations and epoch-level histories for all 27 original-pooling encoder–seed combinations. The historical BERT-base-uncased seed-42 configuration does not explicitly document its class-weighting setting; therefore, balanced class weighting should not be inferred for that run solely from its directory name.
 
 Each released run contains:
 
