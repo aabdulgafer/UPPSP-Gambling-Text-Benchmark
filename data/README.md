@@ -1,5 +1,106 @@
-# Dataset
 
-The author has already uploaded the dataset ZIP to GitHub separately. Record its exact filename, public URL, SHA-256 hash, column dictionary, allowed reuse terms, and any release exclusions here.
+# Dataset Documentation
 
-Manuscript totals: 62,895 monologues, 2,000 profiles, 41,340 gambling/addiction prompts, 21,555 generic prompts.
+## Overview
+
+This directory documents the frozen synthetic dataset used in the UPPS-P Gambling Text Benchmark.
+
+The dataset is publicly available in the repository root:
+
+[dataset.zip](../dataset.zip)
+
+The archive contains synthetic English social-media-style monologues generated under intended UPPS-P impulsivity conditioning.
+
+The assigned facet levels are synthetic generation targets, not independently measured psychological traits.
+
+## Dataset Summary
+
+| Property | Value |
+|---|---:|
+| Synthetic user profiles | 2,000 |
+| Monologues | 62,895 |
+| Parent topics | 150 |
+| Subtopics | 1,200 |
+| Gambling/addiction-context monologues | 41,340 |
+| Generic-context monologues | 21,555 |
+
+## Archive Contents
+
+The dataset archive contains the following files:
+
+### 1_Generated_Subtopics.csv
+
+Generated subtopics used to guide monologue generation.
+
+### 2_User_profiles_extended.csv
+
+Synthetic user profiles containing intended UPPS-P conditioning variables and additional profile information.
+
+### 3_Generated_monologues.csv
+
+The frozen corpus of 62,895 synthetic monologues used in the benchmark.
+
+### Participation_Matrix_M.csv
+
+Participation records associated with the synthetic generation process.
+
+### used_dimensions_log.csv
+
+Records of behavioral dimensions used during text generation.
+
+## Intended UPPS-P Facets
+
+The benchmark considers five dimensions:
+
+- Negative Urgency (NU)
+- Positive Urgency (PU)
+- Lack of Premeditation (LPr)
+- Lack of Perseverance (LPe)
+- Sensation Seeking (SS)
+
+Each facet is represented by three intended ordinal levels: low, mid, and high.
+
+The labels describe intended synthetic conditioning rather than psychometrically validated measurements.
+
+## Frozen Data Partitions
+
+The benchmark uses user-disjoint training, validation, and test partitions.
+
+| Partition | Users | Monologues |
+|---|---:|---:|
+| Training | 1,400 | 44,029 |
+| Validation | 300 | 9,425 |
+| Test | 300 | 9,441 |
+| Total | 2,000 | 62,895 |
+
+The split manifest is available at:
+
+[research2_user_split_manifest_v1.csv](../configs/research2_user_split_manifest_v1.csv)
+
+The same frozen test partition was used throughout the original benchmark and subsequent exploratory analyses.
+
+## Data Integrity
+
+The released corpus underwent cleaning for duplicated and corrupted records before the benchmark partitions were frozen.
+
+The published benchmark results refer to the frozen dataset and should not be interpreted as results on regenerated or modified data.
+
+## Scope and Limitations
+
+The corpus contains synthetic text and synthetic user profiles.
+
+The intended UPPS-P levels are not clinical diagnoses or independently measured psychological characteristics.
+
+The dataset has not been externally validated against paired human-written texts and independently measured UPPS-P questionnaire scores.
+
+The dataset should not be used for nonconsensual psychological profiling or decisions affecting real individuals.
+
+## Licensing and Reuse
+
+Dataset licensing terms are pending confirmation by the authors and relevant rights holders.
+
+Until a license is explicitly provided, public availability should not be interpreted as permission for unrestricted reuse or redistribution.
+
+## Additional Documentation
+
+For experimental configurations, evaluation artifacts, and reproduction details, see the repository's main README and the documentation in the `docs/` directory.
