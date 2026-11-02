@@ -169,3 +169,11 @@ The contemporary-encoder extension and exploratory pooling experiments were cond
 Consequently, the exploratory results are descriptive and are not independently confirmed by a new held-out user partition.
 
 External validation against human-written text paired with independently measured UPPS-P scores has not been completed.
+
+### Original-Pooling Training Records
+
+The repository includes training configurations and training histories for the original-pooling encoder experiments under `results/training_runs/`. These records document the experimental settings, validation-based model selection, and training progression.
+
+The BERT seed-42 experiment has a historical configuration that does not explicitly record the class-weighting setting. Its provenance requires separate verification against the frozen final-test records. This exception must not be interpreted as a confirmed standard balanced-weighting run.
+
+Model checkpoints are not included in this release unless explicitly listed elsewhere in the repository. The availability of training records does not imply that all model weights or complete training environments are publicly archived.
