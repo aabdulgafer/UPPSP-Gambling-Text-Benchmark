@@ -33,7 +33,7 @@ Public release does not necessarily establish independent reproducibility.
 | Transformer training scripts | Partial | `src/training/` | Selected scripts are available; a fully verified training pipeline for every architecture is not established |
 | Original seven-encoder test configurations | Public | `frozen_test_runs.zip` | Contains test configuration records for 21 runs |
 | Contemporary-extension test configurations | Public | `results/original_archives/contemporary_extension_final_test_results_v1_FINAL(1).zip` | Contains test configuration records for the six ModernBERT/NeoBERT original-pooling runs |
-| Original-pooling training configurations and histories | Partial | results/training_runs/ | Configuration and history records for 26 verified balanced-weighting runs; historical BERT seed-42 configuration requires separate provenance verification |
+| Original-pooling training configurations and histories | Public | `results/training_runs/transformer_training_audit.zip` | Contains run configurations and training histories for all 27 original-pooling runs. Complete validation metrics and predictions are not included for every run. |
 | Exploratory mean-pooling training records | Public | `results/pooling_extension/validation_runs/` | Six runs with configurations, training histories, validation metrics, and validation predictions |
 | Original seven-encoder test predictions | Public | `frozen_test_runs.zip` | Saved frozen-test prediction files for 21 runs |
 | Contemporary-extension test predictions | Public | `results/original_archives/` | Saved predictions for six ModernBERT/NeoBERT original-pooling runs |
