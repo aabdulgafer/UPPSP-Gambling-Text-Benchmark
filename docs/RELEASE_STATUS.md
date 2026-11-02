@@ -66,8 +66,7 @@ The repository also contains:
 - `configs/example_neobert_seed87_run_config.json`
 - `results/training_histories/example_neobert_seed87_training_history.json`
 
-These two files are examples from one run and do not constitute complete training histories for all 27 original-pooling checkpoints.
-
+These two files illustrate one individual run. The consolidated archive containing training configurations and histories for all 27 original-pooling runs is documented below.
 Training configurations and histories for all 27 original-pooling runs are publicly available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not included for every run. The original trained checkpoint weights are retained separately.
 
 ## 4. Test Predictions and Evaluation Results
