@@ -142,7 +142,7 @@ An additional copy of these example records is available through:
 
 These files document one training run.
 
-Complete training histories, validation metrics, and validation predictions for all 27 original-pooling runs are not included in this release.
+Training configurations and histories for all 27 original-pooling runs are available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not included for every run.
 
 ## 7. Classical Baseline Results
 
@@ -219,7 +219,7 @@ The repository includes:
 
 These scripts provide partial reproduction and analysis functionality.
 
-The original production scripts used to generate the synthetic corpus are not included in this repository snapshot.
+Five production-related corpus-generation scripts are included in `src/generation/`: `config_M.py`, `main_M.py`, `prompts_M.py`, `quality_metrics_M.py`, and `utils_M.py`. Their availability does not, by itself, establish complete reproducibility of corpus generation.
 
 ## 10. Figures
 
@@ -261,8 +261,8 @@ These archives should not be counted as additional independent experimental runs
 
 The following materials are not completely available in this repository snapshot:
 
-- Original production corpus-generation scripts
-- Complete original-pooling training and validation records for all 27 runs
+- Additional inputs, dependencies, and environment details potentially required for complete corpus regeneration
+- Complete validation metrics and predictions for every original-pooling run
 - Large trained transformer checkpoint weights
 - Complete independently verified end-to-end reproduction environment
 - All post hoc validation and audit materials
