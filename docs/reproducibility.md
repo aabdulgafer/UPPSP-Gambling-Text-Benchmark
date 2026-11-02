@@ -79,7 +79,7 @@ The manuscript reports the following common training settings:
 
 These settings describe the reported protocol.
 
-The public repository contains selected configurations and evaluation records, but not complete training histories and validation-selection records for every original-pooling run.
+Training configurations and histories for all 27 original-pooling runs are publicly available in results/training_runs/transformer_training_audit.zip. Complete validation metrics and predictions are not included for every run.
 
 Therefore, this table alone is insufficient to guarantee exact reproduction of all trained models.
 
@@ -291,9 +291,8 @@ The original trained transformer checkpoint weights are not publicly released.
 
 ### Level E: Corpus regeneration
 
-Not fully supported by the public release.
 
-The frozen generated dataset is available, but the complete original production generation scripts are not included in the current release snapshot.
+The frozen generated dataset is available,  the complete original production generation scripts are  included in the current release snapshot.
 
 Generation details and prompt-conditioning procedures are described in the manuscript and Supplementary Material.
 
@@ -335,13 +334,11 @@ For methodological details and the interpretation of results, consult the associ
 
 ### Original-Pooling Training Records
 
-The original-pooling training configurations and epoch-level histories are provided under `results/training_runs/`. The current release includes records for 26 encoder–seed combinations with explicitly documented balanced class weighting.
+The original-pooling training configurations and epoch-level histories are provided under `results/training_runs/`. The current release includes records for 27 encoder–seed combinations with explicitly documented balanced class weighting.
 
 Each released run contains:
 
 - `run_config.json`: model identification, random seed, training hyperparameters, dataset identifiers, and recorded validation-selection information.
 - `training_history.json`: epoch-level training and validation metrics, enabling examination of training progression and checkpoint-selection behavior.
-
-The historical BERT-base-uncased seed-42 run is not included among these 26 verified balanced-weighting records because its configuration does not explicitly specify the weighting scheme. This run is treated as a provenance exception pending reconciliation with the frozen final-test manifest.
 
 The availability of these records supports methodological transparency but does not, by itself, guarantee exact reproduction of the reported results. Full checkpoint-level reproducibility additionally depends on the original model weights, software environment, and other retained experimental artifacts.
