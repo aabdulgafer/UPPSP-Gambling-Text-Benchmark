@@ -124,25 +124,17 @@ They do not constitute independent confirmation on a new test partition.
 
 ## 6. Original Training Records
 
-Location: `results/training_runs/`
+The consolidated archive is available at:
 
-The repository contains:
+`results/training_runs/transformer_training_audit.zip`
 
-`results/training_runs/neobert_classification_balanced_seed87/`
+It contains training configurations (`run_config.json`) and training histories (`training_history.json`) for all 27 original-pooling encoder–seed combinations.
 
-With:
+The repository also provides an illustrative NeoBERT seed-87 configuration and training history as separately accessible files.
 
-- run_config.json
-- training_history.json
+Complete validation metrics and predictions are not available for every original-pooling run. Trained transformer checkpoint weights are not publicly released.
 
-An additional copy of these example records is available through:
-
-- configs/example_neobert_seed87_run_config.json
-- results/training_histories/example_neobert_seed87_training_history.json
-
-These files document one training run.
-
-Training configurations and histories for all 27 original-pooling runs are available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not included for every run.
+The BERT-base-uncased seed-42 configuration does not explicitly document its class-weighting setting. This limitation is retained for provenance transparency.
 
 ## 7. Classical Baseline Results
 
