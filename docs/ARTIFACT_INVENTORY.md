@@ -118,3 +118,15 @@ This inventory should be updated after:
 5. Making any change to the set of publicly released artifacts.
 
 The manuscript Data Availability Statement should be consistent with the inventory for the version of the repository cited in the article.
+
+### Original-Pooling Training Records
+
+**Repository location:** `results/training_runs/`
+
+The repository contains training configurations (`run_config.json`) and training histories (`training_history.json`) for 26 original-pooling classification runs with explicitly recorded balanced class weighting.
+
+These records cover the available verified encoder–seed combinations from the original benchmark. The historical BERT-base-uncased seed-42 run is tracked separately because its configuration does not explicitly record the class-weighting setting.
+
+The published training records support inspection of training hyperparameters, epoch-level progression, and validation-based checkpoint selection. They do not constitute a complete release of model checkpoints or all intermediate evaluation artifacts.
+
+The BERT seed-42 provenance remains subject to reconciliation with the frozen final-test manifest. No alternative weighting configuration should be attributed to this run without supporting evidence.
