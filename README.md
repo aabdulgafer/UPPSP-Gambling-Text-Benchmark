@@ -94,7 +94,9 @@ User-level predictions are obtained by averaging the predicted class probabiliti
 
 ## Reproducibility and Artifact Availability
 
-The repository includes evaluation scripts, dataset partitions, archived test predictions, statistical outputs, and selected training records.
+The repository includes evaluation scripts, frozen dataset partitions, archived test predictions, statistical outputs, and training configurations and histories for all 27 original-pooling encoder runs. The training records are provided in results/training_runs/transformer_training_audit.zip.
+
+The repository also includes training and validation records for the six exploratory mean-pooling runs. Original trained transformer checkpoint weights are not publicly released.
 
 Not all internally retained experimental artifacts are publicly released. In particular, large trained model checkpoint weights are not included.
 
