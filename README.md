@@ -117,8 +117,12 @@ Please cite the associated research article when referring to this dataset or be
 
 ## License
 
-The original synthetic dataset and original research documentation in this repository are made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless otherwise indicated.
+The original synthetic dataset and original research documentation in this repository are licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license, except where otherwise indicated. This license permits sharing and adaptation with appropriate attribution for noncommercial purposes.
 
-Third-party materials remain subject to their respective licenses and terms of use.
+- [License overview](https://creativecommons.org/licenses/by-nc/4.0/)
+- [Full legal terms](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+- [Repository license file](LICENSE.txt)
 
-The source code used for corpus generation, model training, and evaluation, together with trained model checkpoint weights, is not included in the public release and is not covered by this license.
+Third-party materials remain subject to their respective licenses and terms of use. Source code for corpus generation, model training, evaluation, and statistical analysis, and trained model checkpoint weights, are retained privately and are not included in the public release or covered by this license.
+
+For academic use, please cite the associated research publication when available and identify the repository version used.
