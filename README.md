@@ -115,6 +115,10 @@ The models and dataset should not be used for nonconsensual psychological profil
 
 Please cite the associated research article when referring to this dataset or benchmark.
 
-## Licensing
+## License
 
-Licensing terms for the publicly released dataset and other research artifacts have not yet been finalized. Public accessibility does not itself grant unrestricted reuse or redistribution rights. 
+The original synthetic dataset and original research documentation in this repository are made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless otherwise indicated.
+
+Third-party materials remain subject to their respective licenses and terms of use.
+
+The source code used for corpus generation, model training, and evaluation, together with trained model checkpoint weights, is not included in the public release and is not covered by this license.
