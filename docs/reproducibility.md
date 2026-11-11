@@ -9,10 +9,10 @@ It distinguishes:
 
 - Inspection of saved experimental results
 - Recalculation of metrics from released predictions
-- Execution of available research scripts
+- Review of published experiment configurations and analysis procedures
 - Full reproduction of original training and corpus generation
 
-The last two activities may require additional dependencies, local path changes, or artifacts not included in the public release.
+Full model retraining and corpus regeneration require privately retained source code and other materials not included in the public release.
 
 This document is not a verified end-to-end execution recipe.
 
@@ -180,9 +180,7 @@ Subgroup summaries are available in:
 
 ## 9. Classical Baselines
 
-The repository contains:
-
-`src/training/run_classical_baselines.py`
+The original baseline implementation is retained privately.
 
 Saved baseline predictions and evaluation records are available in:
 
@@ -232,28 +230,9 @@ They do not establish compatibility with every script or reproduce the original 
 
 Additional packages, compatible model implementations, or local adjustments may be required.
 
-## 11. Available Research Scripts
+## 11. Source-Code Availability
 
-The repository includes selected scripts in:
-
-- `src/training/`
-- `src/evaluation/`
-- `src/analysis/`
-
-These cover baseline experiments, transformer training components, frozen-test evaluation, statistical analysis, and figure generation.
-
-Some scripts were preserved from their original execution environments and may contain hard-coded paths or assumptions about locally stored files.
-
-Before execution:
-
-1. Inspect the script's expected input files.
-2. Verify the required package versions.
-3. Check for hard-coded absolute paths.
-4. Confirm the expected archive structure.
-5. Direct outputs to a separate working directory.
-6. Compare recalculated results against the saved metrics.
-
-No claim is made that every released script executes unchanged after cloning the repository.
+The public repository does not include the original Python scripts for corpus generation, model training, evaluation, statistical analysis, or figure generation. These are retained privately. The published configuration records, prediction exports, metrics, and statistical outputs permit inspection and some independent recalculation, but they do not constitute a verified executable reproduction package.
 
 ## 12. Reproduction Levels
 
@@ -271,13 +250,13 @@ The saved predictions and evaluation records provide inputs for independently re
 
 The exact aggregation and statistical procedures must be followed.
 
-Not every analysis script has been verified in a clean environment.
+The original analysis scripts are not publicly released; independent verification requires separate implementations of the documented procedures.
 
 ### Level C: Model retraining
 
-Partially supported.
+Not supported directly by the public release.
 
-Selected training scripts and configuration records are available.
+Training configurations and records are available, but the original training source code is retained privately.
 
 Training configurations and histories for all 27 original-pooling runs are publicly available in `results/training_runs/transformer_training_audit.zip`. Complete validation metrics and predictions are not available for every run, and exact retraining may require additional software-environment and dependency information.
 
@@ -292,7 +271,7 @@ The original trained transformer checkpoint weights are not publicly released.
 ### Level E: Corpus regeneration
 
 
-The frozen synthetic dataset and five production-related generation scripts are publicly available. However, complete regeneration of the original corpus has not been independently demonstrated and may require additional original inputs, dependencies, model versions, and environment details.
+The frozen synthetic dataset is public, while the original corpus-generation scripts are retained privately. Complete regeneration of the original corpus is not supported by the public release alone and may additionally require original inputs, dependencies, model versions, and environment details.
 
 ## 13. Integrity and Traceability
 
