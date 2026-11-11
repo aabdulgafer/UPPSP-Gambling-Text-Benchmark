@@ -139,11 +139,13 @@ The current release does not guarantee complete end-to-end reproduction of the o
 
 ## 10. Licensing
 
-The applicable licenses for the publicly released dataset and research artifacts have not yet been finalized in this release snapshot.
+## 10. Licensing
 
-Public accessibility should not be interpreted as unrestricted permission to reuse or redistribute the materials.
+The original synthetic dataset and original research documentation are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, except where otherwise indicated. The license notice is provided in the repository's `LICENSE` file.
 
-Licensing information will be updated after confirmation by the authors and relevant rights holders.
+Reuse, adaptation, and redistribution are permitted for noncommercial purposes, subject to the license conditions. Third-party materials remain subject to their respective licenses and terms of use.
+
+The original corpus-generation, training, evaluation, and statistical-analysis source code, together with trained model checkpoint weights, is retained privately and is not included in the public release.
 
 ## 11. Experimental and Scientific Limitations
 
