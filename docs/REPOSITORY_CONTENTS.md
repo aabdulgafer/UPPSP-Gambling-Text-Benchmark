@@ -246,6 +246,8 @@ External validation using human-written text paired with independently measured 
 
 ## 14. Licensing
 
-The applicable licenses for the publicly released dataset and other artifacts require confirmation by the authors and relevant rights holders.
+The original synthetic dataset and original research documentation in this repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, except where otherwise indicated.
 
-Public accessibility does not itself grant unrestricted permission for reuse or redistribution.
+The license notice is provided in the repository's `LICENSE` file. Reuse and redistribution are permitted for noncommercial purposes under the applicable license conditions.
+
+Third-party materials remain subject to their respective licenses. Privately retained implementation source code and trained model checkpoint weights are excluded from the public release.
