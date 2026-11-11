@@ -102,9 +102,13 @@ The intended UPPS-P facet levels are synthetic conditioning labels, not independ
 
 ## Licensing
 
-The public repository's licensing terms require confirmation.
+## Licensing
 
-Until applicable licenses are published, repository accessibility should not be interpreted as unrestricted permission for reuse or redistribution.
+The original synthetic dataset and original research documentation are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, except where otherwise indicated. The applicable license notice is provided in the repository's `LICENSE` file.
+
+The license permits reuse and redistribution for noncommercial purposes, subject to its attribution and other conditions. Third-party materials remain subject to their respective licenses.
+
+Privately retained source code and trained model checkpoint weights are not included in the public release.
 
 ## Maintenance
 
@@ -112,7 +116,7 @@ This inventory should be updated after:
 
 1. Adding or replacing generation materials.
 2. Publishing additional training configurations or audit records.
-3. Confirming and publishing licenses for the publicly released artifacts.
+3. Changing the licensing terms or the scope of licensed materials.
 4. Creating an archived version or persistent DOI.
 5. Making any change to the set of publicly released artifacts.
 
