@@ -49,8 +49,7 @@ Public release does not necessarily establish independent reproducibility.
 | Original model and tokenizer weights | Not public | None | Third-party pretrained model files must be obtained separately, subject to applicable terms |
 | Transformer dependency specification | Public | `requirements_transformer.txt` | Package version ranges; not a fully locked environment |
 | Artifact checksum records | Public | `SHA256SUMS.json` | Recorded checksums; coverage and agreement with current files require verification |
-| Public artifact licenses | Pending | No verified license files | Applicable licensing terms require author and rights-holder confirmation |
-
+| Public artifact license | Public | `LICENSE` | CC BY-NC 4.0 applies to the original synthetic dataset and original research documentation, except where otherwise indicated; third-party materials retain their respective licenses |
 ## Experimental Stage Distinctions
 
 ### Original benchmark
