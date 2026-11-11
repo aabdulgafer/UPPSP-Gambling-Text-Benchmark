@@ -35,19 +35,9 @@ Additional information is provided in `data/README.md`.
 
 ## 2. Source Code
 
-**Status: Partially released**
+**Status: Not publicly released**
 
-The repository contains scripts for transformer training, evaluation, statistical analysis, and baseline experiments.
-
-Relevant directories include:
-
-- `src/training/`
-- `src/evaluation/`
-- `src/analysis/`
-
-Five production-related corpus-generation scripts are available in src/generation/. Complete corpus regeneration may still require additional original input files, model dependencies, and execution-environment details.
-
-The available scripts should not be interpreted as a complete end-to-end reproduction package for all experimental stages.
+Source code for corpus generation, model training, evaluation, and statistical analysis is retained privately and is not included in the public repository. The public release contains experiment configurations, saved predictions, evaluation outputs, and documentation, but not an executable end-to-end implementation.
 
 ## 3. Model Configurations
 
@@ -100,9 +90,7 @@ The directory:
 
 contains prediction exports and evaluation summaries for several classical baseline configurations.
 
-The included baseline export audit records a PASS result and a runner SHA-256 matching the released baseline script:
-
-- `src/training/run_classical_baselines.py`
+The included baseline export audit records a PASS result and a runner SHA-256 for the internally retained baseline script. This checksum is an audit record, not a public source-code release.
 
 This audit does not establish independent reproduction of all transformer experiments.
 
@@ -122,7 +110,7 @@ Reproducing model inference from the original trained weights is not possible us
 
 **Status: Not fully released**
 
-Five production-related corpus-generation scripts are available in src/generation/. Complete corpus regeneration may still require additional original input files, model dependencies, and execution-environment details.
+The original corpus-generation scripts are retained privately. Complete corpus regeneration would require those scripts and potentially additional original input files, model dependencies, and execution-environment details.
 
 Generation methodology, language models, decoding settings, and prompt-conditioning details are described in the manuscript and accompanying Supplementary Material.
 
@@ -151,7 +139,7 @@ The current release does not guarantee complete end-to-end reproduction of the o
 
 ## 10. Licensing
 
-The applicable code and dataset licenses have not yet been finalized in this release snapshot.
+The applicable licenses for the publicly released dataset and research artifacts have not yet been finalized in this release snapshot.
 
 Public accessibility should not be interpreted as unrestricted permission to reuse or redistribute the materials.
 
