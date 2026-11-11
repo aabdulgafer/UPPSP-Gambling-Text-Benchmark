@@ -121,7 +121,7 @@ The original synthetic dataset and original research documentation in this repos
 
 - [License overview](https://creativecommons.org/licenses/by-nc/4.0/)
 - [Full legal terms](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
-- [Repository license file](LICENSE.txt)
+- [Repository license file](LICENSE)
 
 Third-party materials remain subject to their respective licenses and terms of use. Source code for corpus generation, model training, evaluation, and statistical analysis, and trained model checkpoint weights, are retained privately and are not included in the public release or covered by this license.
 
