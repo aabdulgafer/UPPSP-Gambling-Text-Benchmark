@@ -75,9 +75,6 @@ All evaluations used the same frozen user-disjoint test partition. The later exp
 - `dataset.zip` — frozen synthetic dataset
 - `configs/` — split manifests and configuration records
 - `data/` — dataset documentation
-- `src/training/` — training scripts
-- `src/evaluation/` — evaluation scripts
-- `src/analysis/` — statistical analysis and visualization scripts
 - `results/` — evaluation results, predictions, statistical comparisons, and archived experiment outputs
 - `frozen_test_runs.zip` — original frozen-test evaluation artifacts
 - `figures/` — manuscript figures
@@ -94,11 +91,11 @@ User-level predictions are obtained by averaging the predicted class probabiliti
 
 ## Reproducibility and Artifact Availability
 
-The repository includes evaluation scripts, frozen dataset partitions, archived test predictions, statistical outputs, and training configurations and histories for all 27 original-pooling encoder runs. The training records are provided in results/training_runs/transformer_training_audit.zip.
+The repository includes frozen dataset partitions, archived test predictions, statistical outputs, and training configurations and histories for all 27 original-pooling encoder runs. The training records are provided in results/training_runs/transformer_training_audit.zip.
 
-The repository also includes training and validation records for the six exploratory mean-pooling runs. Original trained transformer checkpoint weights are not publicly released.
+The repository also includes training and validation records for the six exploratory mean-pooling runs.
 
-Not all internally retained experimental artifacts are publicly released. In particular, large trained model checkpoint weights are not included.
+Source code for corpus generation, model training, evaluation, and analysis, as well as trained model checkpoint weights, is retained privately and is not included in the public release. The available configurations and saved outputs support artifact inspection and selected metric verification, not exact end-to-end reproduction.
 
 For the current scope and limitations of the public release, see:
 
@@ -116,8 +113,8 @@ The models and dataset should not be used for nonconsensual psychological profil
 
 ## Citation
 
-Please cite the associated research article when using this dataset, code, or benchmark.
+Please cite the associated research article when referring to this dataset or benchmark.
 
 ## Licensing
 
-Licensing information will be finalized following confirmation of the applicable code and dataset redistribution terms. 
+Licensing terms for the publicly released dataset and other research artifacts have not yet been finalized. Public accessibility does not itself grant unrestricted reuse or redistribution rights. 
