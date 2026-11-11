@@ -27,10 +27,10 @@ Public release does not necessarily establish independent reproducibility.
 | Frozen synthetic corpus | Public | `dataset.zip` | Contains 62,895 synthetic monologues, 2,000 profiles, and related generation outputs |
 | User-disjoint split manifest | Public | `configs/research2_user_split_manifest_v1.csv` | Defines the frozen user partitions |
 | Frozen-test manifests | Public | `configs/` | Includes original and contemporary-extension manifests |
-| Corpus-generation scripts | Public, subject to final verification | `src/generation/` | Five production-related Python scripts uploaded after the original repository snapshot |
-| Generation prompt templates | Public, subject to final verification | `src/generation/prompts_M.py` | Contains generation prompt definitions; manuscript Supplementary Material provides methodological context |
+| Corpus-generation scripts | Not public | None | Production source code is retained privately |
+| Generation prompt documentation | Public in manuscript Supplementary Material | Supplementary Material (external to repository) | Prompt templates, conditioning instructions, and inference settings are documented in the article supplements; the original Python prompt-definition script is not public |
 | Original topic input and auxiliary generation files | Partial | `dataset.zip`; other inputs not confirmed | Generated subtopics and profiles are released; complete original auxiliary input collection has not been verified |
-| Transformer training scripts | Partial | `src/training/` | Selected scripts are available; a fully verified training pipeline for every architecture is not established |
+| Training, evaluation, and analysis source code | Not public | None | Implementation scripts are retained privately; configurations and saved outputs are released separately |
 | Original seven-encoder test configurations | Public | `frozen_test_runs.zip` | Contains test configuration records for 21 runs |
 | Contemporary-extension test configurations | Public | `results/original_archives/contemporary_extension_final_test_results_v1_FINAL(1).zip` | Contains test configuration records for the six ModernBERT/NeoBERT original-pooling runs |
 | Original-pooling training configurations and histories | Public | `results/training_runs/transformer_training_audit.zip` | Contains run configurations and training histories for all 27 original-pooling runs. Complete validation metrics and predictions are not included for every run. |
@@ -49,7 +49,7 @@ Public release does not necessarily establish independent reproducibility.
 | Original model and tokenizer weights | Not public | None | Third-party pretrained model files must be obtained separately, subject to applicable terms |
 | Transformer dependency specification | Public | `requirements_transformer.txt` | Package version ranges; not a fully locked environment |
 | Artifact checksum records | Public | `SHA256SUMS.json` | Recorded checksums; coverage and agreement with current files require verification |
-| Code and dataset licenses | Pending | No verified license files | Applicable licensing terms require author and rights-holder confirmation |
+| Public artifact licenses | Pending | No verified license files | Applicable licensing terms require author and rights-holder confirmation |
 
 ## Experimental Stage Distinctions
 
@@ -97,7 +97,7 @@ The released materials support inspection of the frozen corpus and examination o
 
 Some analyses may be recalculated from the public predictions and metrics.
 
-However, exact end-to-end reproduction is not established because the public release does not include all original training records, trained model weights, auxiliary generation inputs, and fully locked software environments.
+However, exact end-to-end reproduction is not established because the public release excludes the original implementation scripts, trained model weights, some auxiliary generation inputs, and a fully locked software environment; some validation records are also incomplete.
 
 The intended UPPS-P facet levels are synthetic conditioning labels, not independently measured psychological traits.
 
@@ -113,7 +113,7 @@ This inventory should be updated after:
 
 1. Adding or replacing generation materials.
 2. Publishing additional training configurations or audit records.
-3. Confirming and publishing code and dataset licenses.
+3. Confirming and publishing licenses for the publicly released artifacts.
 4. Creating an archived version or persistent DOI.
 5. Making any change to the set of publicly released artifacts.
 
