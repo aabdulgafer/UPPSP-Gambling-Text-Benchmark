@@ -5,7 +5,7 @@
 
 This document describes the organization of the publicly released research artifacts supporting the UPPS-P Gambling Text Benchmark.
 
-The repository contains the frozen synthetic dataset, user-disjoint split manifests, selected source code, saved test predictions, evaluation results, statistical outputs, and exploratory pooling records.
+The repository contains the frozen synthetic dataset, user-disjoint split manifests, saved test predictions, evaluation results, statistical outputs, and exploratory pooling records.
 
 Some experiment artifacts are distributed as ZIP archives rather than expanded directories.
 
@@ -187,31 +187,9 @@ These outputs support examination of reported evaluation results.
 
 ## 9. Source Code
 
-Location: `src/`
+**Status: Not publicly released**
 
-The repository includes:
-
-### Training
-
-- src/training/run_bert_pilot_v1.py
-- src/training/run_classical_baselines.py
-- src/training/run_contemporary_encoder_extension_v1(2).py
-
-### Evaluation
-
-- src/evaluation/evaluate_frozen_test_v1.py
-- src/evaluation/evaluate_contemporary_extension_final_test_v1(1).py
-- src/evaluation/export_frozen_baseline_predictions_v1.py
-- src/evaluation/freeze_test_manifest_v2.py
-
-### Analysis
-
-- src/analysis/create_uppsp_confusion_matrices.py
-- src/analysis/run_extension_statistical_analysis_seedmean_v1_3.py
-
-These scripts provide partial reproduction and analysis functionality.
-
-Five production-related corpus-generation scripts are included in `src/generation/`: `config_M.py`, `main_M.py`, `prompts_M.py`, `quality_metrics_M.py`, and `utils_M.py`. Their availability does not, by itself, establish complete reproducibility of corpus generation.
+The public repository does not distribute the original corpus-generation, training, evaluation, or analysis Python scripts. These implementations are retained privately. Configuration records, saved predictions, statistical outputs, and figures remain available in the public artifact directories described above and below.
 
 ## 10. Figures
 
@@ -255,6 +233,7 @@ The following materials are not completely available in this repository snapshot
 
 - Additional inputs, dependencies, and environment details potentially required for complete corpus regeneration
 - Complete validation metrics and predictions for every original-pooling run
+- Original generation, training, evaluation, and analysis source code
 - Large trained transformer checkpoint weights
 - Complete independently verified end-to-end reproduction environment
 - All post hoc validation and audit materials
@@ -267,6 +246,6 @@ External validation using human-written text paired with independently measured 
 
 ## 14. Licensing
 
-The applicable licenses for the code and dataset require confirmation by the authors and relevant rights holders.
+The applicable licenses for the publicly released dataset and other artifacts require confirmation by the authors and relevant rights holders.
 
 Public accessibility does not itself grant unrestricted permission for reuse or redistribution.
