@@ -97,9 +97,12 @@ The dataset should not be used for nonconsensual psychological profiling or deci
 
 ## Licensing and Reuse
 
-Dataset licensing terms are pending confirmation by the authors and relevant rights holders.
+The original synthetic dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, as specified in the repository's [LICENSE](../LICENSE) file.
 
-Until a license is explicitly provided, public availability should not be interpreted as permission for unrestricted reuse or redistribution.
+The license permits sharing and adaptation for noncommercial purposes, provided that appropriate attribution is given, a link to the license is included, and any modifications are indicated.
+
+Third-party materials, if present, remain subject to their respective licenses and terms of use.
+
 ## Additional Documentation
 
 For experimental configurations, evaluation artifacts, and reproduction details, see the repository's main README and the documentation in the `docs/` directory.
