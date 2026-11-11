@@ -100,7 +100,6 @@ The dataset should not be used for nonconsensual psychological profiling or deci
 Dataset licensing terms are pending confirmation by the authors and relevant rights holders.
 
 Until a license is explicitly provided, public availability should not be interpreted as permission for unrestricted reuse or redistribution.
-
 ## Additional Documentation
 
 For experimental configurations, evaluation artifacts, and reproduction details, see the repository's main README and the documentation in the `docs/` directory.
