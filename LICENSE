@@ -32,6 +32,9 @@ Scope and exclusions:
 - Source code for corpus generation, model training, evaluation, and statistical
   analysis, and trained model checkpoint weights, are not included in the public
   release and are not licensed by this file.
+- The diagnostic pooling audit script and original diagnostic outputs are
+  included in the public release. Third-party source-code excerpts and
+  dependencies remain subject to their respective licenses.
 
 For scholarly attribution, cite the associated research publication when
 available, together with the repository URL and version used.
