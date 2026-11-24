@@ -319,3 +319,26 @@ Each released run contains:
 - `training_history.json`: epoch-level training and validation metrics, enabling examination of training progression and checkpoint-selection behavior.
 
 The availability of these records supports methodological transparency but does not, by itself, guarantee exact reproduction of the reported results. Full checkpoint-level reproducibility additionally depends on the original model weights, software environment, and other retained experimental artifacts.
+
+## Model-Specific Pooling Diagnostic
+
+The repository includes a diagnostic inspection of the
+sequence representations and pooling transformations
+used by the nine pretrained encoder architectures.
+
+- Diagnostic script:
+  `Scripts/audit_nine_encoders_pooling.py`
+- Model-specific results:
+  `pooling_audit/pooling_summary.csv`
+- Detailed diagnostic evidence:
+  `pooling_audit/pooling_details.json`
+- Software environment:
+  `pooling_audit/audit_metadata.json`
+
+The diagnostic examines locally cached pretrained models
+and follows the representation-selection logic documented
+in the original experimental implementation.
+
+It does not reproduce the historical training runs,
+verify trained checkpoint weights, or independently
+establish historical checkpoint revision identity.
