@@ -187,9 +187,17 @@ These outputs support examination of reported evaluation results.
 
 ## 9. Source Code
 
-**Status: Not publicly released**
+**Status: Partially released**
 
-The public repository does not distribute the original corpus-generation, training, evaluation, or analysis Python scripts. These implementations are retained privately. Configuration records, saved predictions, statistical outputs, and figures remain available in the public artifact directories described above and below.
+The public repository does not distribute the original corpus-generation, training, evaluation, or analysis Python scripts. These implementations are retained privately. Configuration records, saved predictions, statistical outputs, and figures remain available in the public artifact directories described above and below. 
+The model-specific pooling diagnostic is publicly released:
+
+- `Scripts/audit_nine_encoders_pooling.py`
+- `pooling_audit/pooling_summary.csv`
+- `pooling_audit/pooling_details.json`
+- `pooling_audit/audit_metadata.json`
+
+This diagnostic does not replace the original corpus-generation, training, evaluation, or statistical-analysis implementations.
 
 ## 10. Figures
 
