@@ -1,0 +1,55 @@
+
+{
+    "creators": [
+        {
+            "name": "Abdulgafer, Abdullah",
+            "orcid": "0000-0003-0416-5710",
+            "affiliation": "University of Castilla-La Mancha, Spain; Applied Science Private University, Jordan"
+        },
+        {
+            "name": "Serrano-Guerrero, Jesus",
+            "orcid": "0000-0002-6177-8188",
+            "affiliation": "University of Castilla-La Mancha, Spain"
+        },
+        {
+            "name": "Chiclana, Francisco",
+            "orcid": "0000-0002-3952-4210",
+            "affiliation": "De Montfort University, United Kingdom"
+        },
+        {
+            "name": "Bani-Doumi, Mohammad",
+            "orcid": "0000-0002-6355-1753",
+            "affiliation": "Applied Science Private University, Jordan"
+        },
+        {
+            "name": "Montoro-Montarroso, Andres",
+            "orcid": "0000-0003-1893-3346",
+            "affiliation": "University of Castilla-La Mancha, Spain"
+        },
+        {
+            "name": "Guerrero-Sosa, Jared D. T.",
+            "orcid": "0000-0001-7999-9870",
+            "affiliation": "University of Castilla-La Mancha, Spain"
+        }
+    ],
+    "title": "UPPS-P Gambling Text Benchmark",
+    "version": "1.0.0",
+    "description": "This repository provides a frozen synthetic corpus of 62,895 English social-media-style monologues associated with 2,000 synthetic user profiles, conditioned on five intended UPPS-P impulsivity facets: Negative Urgency, Positive Urgency, Lack of Premeditation, Lack of Perseverance, and Sensation Seeking. The corpus includes gambling/addiction and generic contexts. The repository contains user-disjoint data partitions, experimental configurations, saved predictions, statistical analysis outputs, evaluation artifacts, and model-specific pooling diagnostics for nine pretrained language encoders. These materials support the study entitled 'Beyond the Big Five: Benchmarking Pretrained Language Encoders for Predicting Intended UPPS-P Facet Levels from Synthetic Gambling-Related Text'. The intended facet-level labels represent synthetic generation conditions rather than independently measured psychological traits. The dataset is intended for methodological research and benchmarking, not clinical diagnosis or psychological profiling of real individuals.",
+    "access_right": "open",
+    "keywords": [
+        "UPPS-P",
+        "Impulsivity",
+        "Gambling",
+        "Problem gambling",
+        "Synthetic data",
+        "Natural language processing",
+        "Pretrained language encoders",
+        "Personality traits",
+        "Text classification",
+        "Benchmarking",
+        "Reproducibility"
+    ],
+    "license": "cc-by-nc-4.0",
+    "upload_type": "dataset",
+    "language": "eng"
+}
