@@ -80,6 +80,8 @@ All evaluations used the same frozen user-disjoint test partition. The later exp
 - `figures/` — manuscript figures
 - `docs/` — reproducibility and release documentation
 - `requirements_transformer.txt` — transformer environment dependencies
+- `Scripts/` — diagnostic pooling audit script
+- `pooling_audit/` — model-specific pooling diagnostic results and environment metadata
 
 ## Evaluation
 
