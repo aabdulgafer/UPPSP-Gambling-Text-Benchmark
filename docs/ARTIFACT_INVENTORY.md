@@ -102,8 +102,6 @@ The intended UPPS-P facet levels are synthetic conditioning labels, not independ
 
 ## Licensing
 
-## Licensing
-
 The original synthetic dataset and original research documentation are licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, except where otherwise indicated. The applicable license notice is provided in the repository's `LICENSE` file.
 
 The license permits reuse and redistribution for noncommercial purposes, subject to its attribution and other conditions. Third-party materials remain subject to their respective licenses.
