@@ -126,6 +126,8 @@ The presence of these outputs does not establish that all post hoc human-validat
 
 The public availability of individual audit materials should be verified against the repository contents and the associated Supplementary Material.
 
+The nine-encoder pooling diagnostic script and its successful diagnostic outputs are publicly available in `Scripts/` and `pooling_audit/`, respectively.
+
 ## 9. Dependencies and Reproduction
 
 The repository includes:
