@@ -1,0 +1,19 @@
+﻿encoder,model_id,status,model_class,model_type,tokenizer_class,padding_side,cls_token_id,first_token_ids,last_token_ids,first_attention_mask,last_attention_mask,output_keys,native_pooler_available,selected_strategy,hidden_shape,selected_shape,pooler_module,resolved_commit,requested_revision,matching_training_configs,dense_tanh_first_token_matches,error
+BERT,bert-base-uncased,OK,BertModel,bert,BertTokenizerFast,right,101,"[101, 101]","[0, 0]","[1, 1]","[0, 0]","['last_hidden_state', 'pooler_output']",True,native_pooler_output,"[2, 64, 768]","[2, 768]","BertPooler(
+  (dense): Linear(in_features=768, out_features=768, bias=True)
+  (activation): Tanh()
+)",86b5e0934494bd15c9632b12f734a8a67f723594,,0,True,
+RoBERTa,roberta-base,OK,RobertaModel,roberta,RobertaTokenizerFast,right,0,"[0, 0]","[1, 1]","[1, 1]","[0, 0]","['last_hidden_state', 'pooler_output']",True,native_pooler_output,"[2, 64, 768]","[2, 768]","RobertaPooler(
+  (dense): Linear(in_features=768, out_features=768, bias=True)
+  (activation): Tanh()
+)",e2da8e2f811d1448a5b465c236feacd80ffbac7b,,0,True,
+ALBERT,albert-base-v1,OK,AlbertModel,albert,AlbertTokenizerFast,right,2,"[2, 2]","[0, 0]","[1, 1]","[0, 0]","['last_hidden_state', 'pooler_output']",True,native_pooler_output,"[2, 64, 768]","[2, 768]","Linear(in_features=768, out_features=768, bias=True)",082438ba120d36b97b9288772a41144e941705b9,,0,,
+ELECTRA,google/electra-small-discriminator,OK,ElectraModel,electra,ElectraTokenizerFast,right,101,"[101, 101]","[0, 0]","[1, 1]","[0, 0]",['last_hidden_state'],False,first_position,"[2, 64, 256]","[2, 256]",None,fa8239aadc095e9164941d05878b98afe9b953c3,,0,,
+DeBERTa-v3,microsoft/deberta-v3-base,FAILED,,,,,,,,,,,,,,,,,,,,"ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/microsoft/deberta-v3-base (Caused by NameResolutionError(""HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)""))'), '(Request ID: 89d7e9f2-03a2-4432-94fd-866bad12742e)')"
+ERNIE,nghuyong/ernie-2.0-en,OK,ErnieModel,ernie,BertTokenizerFast,right,101,"[101, 101]","[0, 0]","[1, 1]","[0, 0]","['last_hidden_state', 'pooler_output']",True,native_pooler_output,"[2, 64, 768]","[2, 768]","ErniePooler(
+  (dense): Linear(in_features=768, out_features=768, bias=True)
+  (activation): Tanh()
+)",2c22755178879588695a30d68a4d9e861237db7b,,0,True,
+XLNet,xlnet-base-cased,OK,XLNetModel,xlnet,XLNetTokenizerFast,left,3,"[5, 5]","[3, 3]","[0, 0]","[1, 1]","['last_hidden_state', 'mems']",False,final_position,"[2, 64, 768]","[2, 768]",None,ceaa69c7bc5e512b5007106a7ccbb7daf24b2c79,,0,,
+ModernBERT,answerdotai/ModernBERT-base,OK,ModernBertModel,modernbert,PreTrainedTokenizerFast,right,50281,"[50281, 50281]","[50283, 50283]","[1, 1]","[0, 0]",['last_hidden_state'],False,first_position,"[2, 64, 768]","[2, 768]",None,8949b909ec900327062f0ebf497f51aef5e6f0c8,,0,,
+NeoBERT,chandar-lab/NeoBERT,OK,NeoBERT,neobert,BertTokenizerFast,right,101,"[101, 101]","[0, 0]","[1, 1]","[0, 0]",['last_hidden_state'],False,first_position,"[2, 64, 768]","[2, 768]",None,5424c8efeea6491b151d62dee55a752165407430,,0,,
