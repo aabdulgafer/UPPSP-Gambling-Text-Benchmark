@@ -96,6 +96,7 @@ User-level predictions are obtained by averaging the predicted class probabiliti
 The repository includes frozen dataset partitions, archived test predictions, statistical outputs, and training configurations and histories for all 27 original-pooling encoder runs. The training records are provided in results/training_runs/transformer_training_audit.zip.
 
 The repository also includes training and validation records for the six exploratory mean-pooling runs.
+The repository also includes a diagnostic pooling audit covering all nine encoders. The audit documents the selected sequence representations, native pooling modules, representation dimensionalities, and software environment. It inspects locally cached pretrained models and does not constitute a reproduction of the historical training runs.
 
 Source code for corpus generation, model training, evaluation, and analysis, as well as trained model checkpoint weights, is retained privately and is not included in the public release. The available configurations and saved outputs support artifact inspection and selected metric verification, not exact end-to-end reproduction.
 
@@ -115,8 +116,9 @@ The models and dataset should not be used for nonconsensual psychological profil
 
 ## Citation
 
-Please cite the associated research article when referring to this dataset or benchmark.
+Please cite the associated research article and the corresponding versioned repository archive when referring to this dataset or benchmark.
 
+The repository is archived through Zenodo to provide persistent access to the research artifacts associated with the study.
 ## License
 
 The original synthetic dataset and original research documentation in this repository are licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license, except where otherwise indicated. This license permits sharing and adaptation with appropriate attribution for noncommercial purposes.
