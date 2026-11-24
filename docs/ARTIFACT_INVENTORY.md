@@ -131,3 +131,10 @@ The BERT-base-uncased seed-42 configuration and training history are included. I
 Complete validation metrics and validation predictions are not included for every original-pooling run. Trained checkpoint weights are retained separately and are not publicly distributed.
 
 These records support examination of training settings and epoch-level progression but do not establish exact end-to-end reproducibility.
+
+
+## Model-Specific Pooling Diagnostic
+
+The public release includes the diagnostic script in `Scripts/` and the corresponding nine-encoder diagnostic outputs in `pooling_audit/`.
+
+These materials support verification of model-specific sequence representations and pooling transformations but do not reproduce the historical training runs.
